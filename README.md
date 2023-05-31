@@ -1,3 +1,2 @@
 # C214_CI_Seminario
-Atividade C214 - Seminario
-Salveeee
+[![CI Unittest](https://github.com/ThiagoMiguel7/C214_CI_Seminario/actions/workflows/python-app.yml/badge.svg)](https://github.com/ThiagoMiguel7/C214_CI_Seminario/actions/workflows/python-app.yml)
