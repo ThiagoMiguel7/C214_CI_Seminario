@@ -4,7 +4,7 @@
 <p>
   <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=00bfff&style=plastic"/>
   
-  <img src="https://img.shields.io/static/v1?label=LP&message=Python&color=daa520&style=plastic"/>
+  r<img src="https://img.shields.io/static/v1?label=LP&message=Python&color=daa520&style=plastic"/>
   
   <img src="https://img.shields.io/static/v1?label=IDE&message=VsCode&color=9acd32&style=plastic"/>
 </p>
