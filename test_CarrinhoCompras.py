@@ -92,7 +92,7 @@ class TestCarrinhoCompras(unittest.TestCase):
         self.assertNotEqual(len(self.carrinhoCl1.produtos),0)  
 
     def test_carrinho_Nvazio_Thiago(self):
-        self.assertNotEqual(len(self.carrinhoCl3.produtos),0)  
+        self.assertNotEqual(len(self.carrinhoCl2.produtos),0)  
 
     def test_carrinho_Nvazio_Wesley(self):
         self.assertNotEqual(len(self.carrinhoCl3.produtos),0)   
