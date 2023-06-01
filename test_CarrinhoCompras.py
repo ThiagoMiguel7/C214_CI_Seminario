@@ -60,6 +60,7 @@ class TestCarrinhoCompras(unittest.TestCase):
         total_esperado = 4499.99 + 5499.99 + 4999.99 + 130000.0
         self.assertEqual(self.carrinhoCl3.calcular_total(), total_esperado)
 
+    #Teste Negativo
     def test_calcular_total_Pedro_NotEqual(self):
         total_Nesperado = 4499.99 + 70000.0 + 1899.99
         self.assertNotEqual(self.carrinhoCl1.calcular_total(), total_Nesperado)
@@ -71,6 +72,7 @@ class TestCarrinhoCompras(unittest.TestCase):
     def test_calcular_total_Wesley_NotEqual(self):
         total_Nesperado = 4499.99 + 5499.99 + 4999.99
         self.assertNotEqual(self.carrinhoCl3.calcular_total(), total_Nesperado)
+
 
     def test_adicionar_produto_Pedro(self):
         produto = Produto(2, "Civic SI", "Honda", 70000.00, 2)
@@ -88,10 +90,10 @@ class TestCarrinhoCompras(unittest.TestCase):
         self.assertIn(produto, self.carrinhoCl3.produtos) 
 
     def test_carrinho_Nvazio_Pedro(self):
-        self.assertNotEqual(len(self.carrinhoCl3.produtos),0)  
+        self.assertNotEqual(len(self.carrinhoCl1.produtos),0)  
 
     def test_carrinho_Nvazio_Thiago(self):
-        self.assertNotEqual(len(self.carrinhoCl3.produtos),0)  
+        self.assertNotEqual(len(self.carrinhoCl2.produtos),0)  
 
     def test_carrinho_Nvazio_Wesley(self):
         self.assertNotEqual(len(self.carrinhoCl3.produtos),0)   
